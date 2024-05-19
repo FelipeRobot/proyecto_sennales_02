@@ -14,3 +14,8 @@ Método 2: Clonar el archivo (Método sólo disponible si ya está instalado git
 En la carpeta donde se desee guardar el archivo, abrir 'CMD' (Es posible usar shell también pero recordar que los comandos aquí explicados son para cmd) utilizar el siguiente comando: 'git clone https://github.com/FelipeRobot/proyecto_tratamiento_sennales.git'
 
 Una vez clonado, descomprir el archivo en la ubicación deseada y usando el software Matlab pararse sobre el archivo 'main.m' encontrado en la carpeta principal. Correr el script. En caso de que se desplieguen pantallas de advertencia, dar click en el botón 'Add Path' y ejecutar nuevamente.
+
+
+
+------------------NOTAS IMPORTANTES-----------------------------
+-Nuestro código usa código abierto y de libre uso para la integración de la solución. En la estructura del código se aclara y se permite el uso libre de este software
