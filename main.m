@@ -23,7 +23,7 @@ msg = sprintf('Segundo proyecto de MATLAB - Felipe Useche & Alejandro Llerena\n\
     
     %% Plot and play the DTMF audio
     y = linspace(0, duration, x_length);
-    T = duration/x_length; %duration time between samples
+    T = duration/x_length; %duracion entre samples
     for i=1:1:x_length
         y(i) = T*i;
     end
@@ -70,12 +70,7 @@ msg = sprintf('Segundo proyecto de MATLAB - Felipe Useche & Alejandro Llerena\n\
         keydig = fk2dig(keyL, keyH);
     
         end
-        
-        phone_number{k} = keydig;
-        %% Mostrar resultados
-    disp('Números de teléfono detectados:');
-    disp(phone_number);
-
+       
     end
     
     %% Mostrar resultados
